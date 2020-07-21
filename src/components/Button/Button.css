@@ -1,0 +1,65 @@
+.Button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #DFD5CD;
+  border: none;
+  margin-right: 15px;
+  color: #000;
+  min-width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+.Button:hover{
+  background: #D095A1;
+  color: #fff;
+}
+
+.Button:last-child{
+  margin-right: 0;
+}
+.Button:active{
+  background: firebrick;
+  box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+}
+.Button:focus{
+  outline: none;
+}
+.Button:disabled{
+  background: #282c34;
+  color: white;
+  cursor: not-allowed;
+}
+
+.error{
+  background: red;
+}
+.success{
+  background: #61dafb;
+}
+
+/*.primary{*/
+/*  background: aquamarine;*/
+/*}*/
+
+
+/*  &:active{*/
+/*    background: firebrick;*/
+/*  }*/
+/*  &:focus{*/
+/*    outline: none;*/
+/*  }*/
+/*  &:disabled{*/
+/*    background: pink;*/
+/*    cursor: not-allowed;*/
+/*  }*/
+
+/*  .error{*/
+/*background: firebrick;*/
+/*  }*/
+/*  .success{*/
+/*background: navajowhite;*/
+/*  }*/
+/*  .primary{*/
+/*    background: grey;*/
+/*  }*/

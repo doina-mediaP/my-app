@@ -1,0 +1,21 @@
+.Input{
+    max-width: 500px;
+    width: 60%;
+    display: flex;
+    margin-right: 30px;
+}
+
+.Input input{
+    padding: 10px 7px;
+    width: 100%;
+    border: 1px solid #E0EF8C;
+    transition: .3s;
+}
+.Input input:hover{
+    border: 1px solid #709107;
+}
+
+.Input input:focus{
+    border: 1px solid #709107;
+    outline: none;
+}
